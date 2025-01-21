@@ -8,6 +8,7 @@ import numpy as np
 
 
 class SVM:
+    """SVM class"""
     def __init__(self, learning_rate=0.001, lambda_param=0.01, n_iters=1000):
         self.learning_rate = learning_rate
         self.lambda_param = lambda_param
