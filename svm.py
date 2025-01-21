@@ -1,3 +1,9 @@
+"""Traditional SVM algorithm.
+
+Returns:
+    labels: The output labels.
+"""
+
 import numpy as np
 
 
